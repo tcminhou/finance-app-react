@@ -48,5 +48,5 @@ React-based frontend for the Finance App
   ```
 - This will start the development server and open the application in your default browser
 
-![alt text](reacjs.png)
+![alt text](reactjs.png)
 
