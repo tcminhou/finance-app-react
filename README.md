@@ -50,3 +50,40 @@ React-based frontend for the Finance App
 
 ![alt text](reactjs.png)
 
+# Expo
+
+## 1. Install the Expo App
+- Use the following command to create a new Expo project:
+  
+  ```bash
+  npx create-expo-app finance-app-expo
+  ```
+
+## 2. Run the Demo Expo App
+- To start the development server and run the demo app:
+  
+  ```bash
+  npx expo start
+  ```
+
+## 3. Reset the Project
+- Before you begin developing your own app, remove the default demo screens and content created by Expo.
+Then, clear the cache using the following command:
+  
+  ```bash
+  npm run reset-project
+  ```
+## 4. Add the Following Screens to Your App
+- Create these files inside the app/ directory:
+  
+  ```bash
+  login.tsx
+  register.tsx
+  ```
+
+## 5. Install Package for Timezone Picker
+- Create these files inside the app/ directory:
+  
+  ```bash
+  npx expo install @react-native-picker/picker
+  ```
